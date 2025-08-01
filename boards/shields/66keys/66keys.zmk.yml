@@ -1,0 +1,8 @@
+file_format: "1"
+id: 66keys
+name: 66keys
+type: shield
+url: https://github.com/re-conn/rahh
+requires: [pro_micro]
+features:
+  - keys
