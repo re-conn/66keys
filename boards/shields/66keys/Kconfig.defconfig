@@ -1,4 +1,5 @@
 if SHIELD_66KEYS
 
-config ZMK_KEYBOARD_NAME
+config ZMK_66KEYS
     default "66keys"
+endif
