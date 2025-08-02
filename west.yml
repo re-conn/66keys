@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: remote-name
-      url-base: https://github.com/remote-name
+    - name: 66key_remote
+      url-base: https://github.com/re-conn/zmk-keyboard-66keys
   projects:
     # Together with the above defined remote, this refers to a module located at
     # https://github.com/remote-name/repository-name
-    - name: repository-name
-      remote: remote-name
+    - name: 66keys
+      remote: 66key_remote
       # This points to a west manifest file in the remote module for further imports
       import: west.yml
